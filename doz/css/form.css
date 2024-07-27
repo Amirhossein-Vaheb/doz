@@ -1,0 +1,62 @@
+body{
+    background-color: #eee;
+}
+
+#game{
+    width:300px;
+    padding: 50px;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    display: inline-block;
+}
+
+label
+{
+    display: inline-block;
+  width: 200px;
+}
+#send
+{
+   margin: 20px;
+    font-size: 25px;
+    width: 100px;
+}
+.update
+{
+    margin: 20px;
+    font-size: 25px;
+    width: 100px;
+}
+
+.message{
+    position: absolute;
+    left: 560px;
+    margin-right: 200px ;
+    height: 100px;
+    background-color: rgba(0,0,0,0.9);
+    color:#fff;
+    font-size: 60px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #009688;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

@@ -1,0 +1,112 @@
+body{
+    background-color: #eee;
+}
+
+#game{
+    width:300px;
+    padding: 50px;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: inline-block;
+    float: left;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.cell:hover
+{
+    background-color: #eee;
+}
+
+#game .cO
+    {
+    color: #4689E0;
+    }
+
+#game .cX
+    {
+    color: #E04546;
+    }
+
+.cell:disabled
+{
+    cursor: default;
+}
+
+#massage
+{
+    position: absolute;
+    top:150px;
+    right: 0;
+    left: 0;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(0,0,0,0.9);
+    color:#fff;
+    font-size: 60px;
+}
+
+#resetbtn
+{
+    height: 50px;
+    border: none;
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: #383883;
+    color: #fff;
+    font-size: 30px;
+}
+#resetbtn:hover
+{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #357927;
+}
+.row
+{
+    width: 300px;
+    display: flex;
+    vertical-align: center;
+    justify-content: space-around;
+}
+.span6{
+
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.row .active
+{
+   opacity: 1;
+}
+.title div
+{
+    opacity: 0.3;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.wallet {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
